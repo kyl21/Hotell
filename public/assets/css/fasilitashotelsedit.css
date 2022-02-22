@@ -1,0 +1,46 @@
+html,body{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+    background: #f8f9fc;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+    z-index: 9999;
+    background-color: #f8f9fc;
+}
+
+.header h3{
+    color: #4e73df;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-weight: bold;
+}
+
+
+.header img{
+    margin-left: 15px;
+    margin-top: 15px;
+    transform: rotate(180deg);
+}
+
+.main{
+    padding-top: 60px;
+    background-color: #f8f9fc;
+}
+
+.main form{
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    text-align: left;
+    border: 2px solid #f8f9fc;
+    box-shadow: 3px 3px 3px 3px #dcdcdc;
+}
