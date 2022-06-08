@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <div class="kanan">
-            <img class="hotel" src="{!! asset('assets/image/hotel.png') !!}">
+           
             <h1>HOTEL HEBAT</h1>
         </div>
         <div class="kiri">

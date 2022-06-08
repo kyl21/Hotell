@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-        <img class="hotel" src="{!! asset('assets/image/hotel.png') !!}">
+       
         <h1>HOTEL HEBAT</h1>
         <ul>
             <li><a href="{{ url('pemesanans') }}" class="home">Home</a></li>
@@ -19,13 +19,12 @@
     </div>
     <center>
     <div class="muka">
-        <img src="{!! asset('assets/image/hotelmuka.jpg') !!}">
+        <img src="{!! asset('assets/image/hotel1.jpeg') !!}">
     </div>
     </center>
     <div class="main">
         <div class="side">
-            <p>Lepaskan diri Anda ke Hotel Hebat, dikelilingi oleh keindahan pegunungan yang indah, danau, dan sawah menghijau. Nikmati sore yang hangat dengan berenang di kolam renang dengan pemandangan matahari terbenam memukau. Kids Club yang luas menawarkan berbagai fasilitas dan kegiatan anak-anak yang akan melengkapi kenyamanan keluarga. Convention Center kami dilengkapi pelayanan lengkap dengan ruang penyelenggaraan konvensi M.I.C.E ataupun mewujudkan acara pernikahan yang mewah.</p>
-        </div>
+            </div>
         <div class="bar">
             <a class="btn btn-primary" href="{{ route('pemesanans.create') }}">Reservasi Sekarang !</a>
         </div>

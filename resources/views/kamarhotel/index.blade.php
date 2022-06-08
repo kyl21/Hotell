@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-        <img class="hotel" src="{!! asset('assets/image/hotel.png') !!}">
+        
         <h1>HOTEL HEBAT</h1>
         <ul>
             <li><a href="{{ url('pemesanans') }}" class="home">Home</a></li>
